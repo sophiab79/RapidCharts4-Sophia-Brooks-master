@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7BE92825881BC2006DE4DF /* ToDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BE92725881BC2006DE4DF /* ToDetailTableViewController.swift */; };
+		EC8C0D972589C17C00B8ED15 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C0D962589C17C00B8ED15 /* ToDoItem.swift */; };
+		EC940E912587F5D300A4840D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC940E902587F5D300A4840D /* AppDelegate.swift */; };
+		EC940E932587F5D300A4840D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC940E922587F5D300A4840D /* SceneDelegate.swift */; };
+		EC940E952587F5D300A4840D /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC940E942587F5D300A4840D /* ToDoListViewController.swift */; };
+		EC940E982587F5D300A4840D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC940E962587F5D300A4840D /* Main.storyboard */; };
+		EC940E9A2587F5D600A4840D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC940E992587F5D600A4840D /* Assets.xcassets */; };
+		EC940E9D2587F5D600A4840D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC940E9B2587F5D600A4840D /* LaunchScreen.storyboard */; };
+		EC940EA82587F5D700A4840D /* RapidCharts4_Sophia_BrooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC940EA72587F5D700A4840D /* RapidCharts4_Sophia_BrooksTests.swift */; };
+		EC940EB32587F5D700A4840D /* RapidCharts4_Sophia_BrooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC940EB22587F5D700A4840D /* RapidCharts4_Sophia_BrooksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC940EA42587F5D700A4840D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC940E852587F5D300A4840D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC940E8C2587F5D300A4840D;
+			remoteInfo = "RapidCharts4-Sophia-Brooks";
+		};
+		EC940EAF2587F5D700A4840D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC940E852587F5D300A4840D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC940E8C2587F5D300A4840D;
+			remoteInfo = "RapidCharts4-Sophia-Brooks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7BE92725881BC2006DE4DF /* ToDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDetailTableViewController.swift; sourceTree = "<group>"; };
+		EC8C0D962589C17C00B8ED15 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		EC940E8D2587F5D300A4840D /* RapidCharts4-Sophia-Brooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RapidCharts4-Sophia-Brooks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC940E902587F5D300A4840D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC940E922587F5D300A4840D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC940E942587F5D300A4840D /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		EC940E972587F5D300A4840D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC940E992587F5D600A4840D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC940E9C2587F5D600A4840D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC940E9E2587F5D600A4840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC940EA32587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RapidCharts4-Sophia-BrooksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC940EA72587F5D700A4840D /* RapidCharts4_Sophia_BrooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidCharts4_Sophia_BrooksTests.swift; sourceTree = "<group>"; };
+		EC940EA92587F5D700A4840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC940EAE2587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RapidCharts4-Sophia-BrooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC940EB22587F5D700A4840D /* RapidCharts4_Sophia_BrooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidCharts4_Sophia_BrooksUITests.swift; sourceTree = "<group>"; };
+		EC940EB42587F5D700A4840D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC940E8A2587F5D300A4840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940EA02587F5D700A4840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940EAB2587F5D700A4840D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC940E842587F5D300A4840D = {
+			isa = PBXGroup;
+			children = (
+				EC940E8F2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */,
+				EC940EA62587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests */,
+				EC940EB12587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests */,
+				EC940E8E2587F5D300A4840D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC940E8E2587F5D300A4840D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC940E8D2587F5D300A4840D /* RapidCharts4-Sophia-Brooks.app */,
+				EC940EA32587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests.xctest */,
+				EC940EAE2587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC940E8F2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */ = {
+			isa = PBXGroup;
+			children = (
+				EC940E902587F5D300A4840D /* AppDelegate.swift */,
+				EC940E922587F5D300A4840D /* SceneDelegate.swift */,
+				EC8C0D962589C17C00B8ED15 /* ToDoItem.swift */,
+				EC940E942587F5D300A4840D /* ToDoListViewController.swift */,
+				EC7BE92725881BC2006DE4DF /* ToDetailTableViewController.swift */,
+				EC940E962587F5D300A4840D /* Main.storyboard */,
+				EC940E992587F5D600A4840D /* Assets.xcassets */,
+				EC940E9B2587F5D600A4840D /* LaunchScreen.storyboard */,
+				EC940E9E2587F5D600A4840D /* Info.plist */,
+			);
+			path = "RapidCharts4-Sophia-Brooks";
+			sourceTree = "<group>";
+		};
+		EC940EA62587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC940EA72587F5D700A4840D /* RapidCharts4_Sophia_BrooksTests.swift */,
+				EC940EA92587F5D700A4840D /* Info.plist */,
+			);
+			path = "RapidCharts4-Sophia-BrooksTests";
+			sourceTree = "<group>";
+		};
+		EC940EB12587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC940EB22587F5D700A4840D /* RapidCharts4_Sophia_BrooksUITests.swift */,
+				EC940EB42587F5D700A4840D /* Info.plist */,
+			);
+			path = "RapidCharts4-Sophia-BrooksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC940E8C2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC940EB72587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-Brooks" */;
+			buildPhases = (
+				EC940E892587F5D300A4840D /* Sources */,
+				EC940E8A2587F5D300A4840D /* Frameworks */,
+				EC940E8B2587F5D300A4840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RapidCharts4-Sophia-Brooks";
+			productName = "RapidCharts4-Sophia-Brooks";
+			productReference = EC940E8D2587F5D300A4840D /* RapidCharts4-Sophia-Brooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC940EA22587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC940EBA2587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-BrooksTests" */;
+			buildPhases = (
+				EC940E9F2587F5D700A4840D /* Sources */,
+				EC940EA02587F5D700A4840D /* Frameworks */,
+				EC940EA12587F5D700A4840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC940EA52587F5D700A4840D /* PBXTargetDependency */,
+			);
+			name = "RapidCharts4-Sophia-BrooksTests";
+			productName = "RapidCharts4-Sophia-BrooksTests";
+			productReference = EC940EA32587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC940EAD2587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC940EBD2587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-BrooksUITests" */;
+			buildPhases = (
+				EC940EAA2587F5D700A4840D /* Sources */,
+				EC940EAB2587F5D700A4840D /* Frameworks */,
+				EC940EAC2587F5D700A4840D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC940EB02587F5D700A4840D /* PBXTargetDependency */,
+			);
+			name = "RapidCharts4-Sophia-BrooksUITests";
+			productName = "RapidCharts4-Sophia-BrooksUITests";
+			productReference = EC940EAE2587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC940E852587F5D300A4840D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Sophia;
+				TargetAttributes = {
+					EC940E8C2587F5D300A4840D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					EC940EA22587F5D700A4840D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EC940E8C2587F5D300A4840D;
+					};
+					EC940EAD2587F5D700A4840D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EC940E8C2587F5D300A4840D;
+					};
+				};
+			};
+			buildConfigurationList = EC940E882587F5D300A4840D /* Build configuration list for PBXProject "RapidCharts4-Sophia-Brooks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC940E842587F5D300A4840D;
+			productRefGroup = EC940E8E2587F5D300A4840D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC940E8C2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */,
+				EC940EA22587F5D700A4840D /* RapidCharts4-Sophia-BrooksTests */,
+				EC940EAD2587F5D700A4840D /* RapidCharts4-Sophia-BrooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC940E8B2587F5D300A4840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC940E9D2587F5D600A4840D /* LaunchScreen.storyboard in Resources */,
+				EC940E9A2587F5D600A4840D /* Assets.xcassets in Resources */,
+				EC940E982587F5D300A4840D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940EA12587F5D700A4840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940EAC2587F5D700A4840D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC940E892587F5D300A4840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC940E952587F5D300A4840D /* ToDoListViewController.swift in Sources */,
+				EC940E912587F5D300A4840D /* AppDelegate.swift in Sources */,
+				EC8C0D972589C17C00B8ED15 /* ToDoItem.swift in Sources */,
+				EC940E932587F5D300A4840D /* SceneDelegate.swift in Sources */,
+				EC7BE92825881BC2006DE4DF /* ToDetailTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940E9F2587F5D700A4840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC940EA82587F5D700A4840D /* RapidCharts4_Sophia_BrooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC940EAA2587F5D700A4840D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC940EB32587F5D700A4840D /* RapidCharts4_Sophia_BrooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC940EA52587F5D700A4840D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC940E8C2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */;
+			targetProxy = EC940EA42587F5D700A4840D /* PBXContainerItemProxy */;
+		};
+		EC940EB02587F5D700A4840D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC940E8C2587F5D300A4840D /* RapidCharts4-Sophia-Brooks */;
+			targetProxy = EC940EAF2587F5D700A4840D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC940E962587F5D300A4840D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC940E972587F5D300A4840D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC940E9B2587F5D600A4840D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC940E9C2587F5D600A4840D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC940EB52587F5D700A4840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC940EB62587F5D700A4840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC940EB82587F5D700A4840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-Brooks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-Brooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC940EB92587F5D700A4840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-Brooks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-Brooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC940EBB2587F5D700A4840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-BrooksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-BrooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidCharts4-Sophia-Brooks.app/RapidCharts4-Sophia-Brooks";
+			};
+			name = Debug;
+		};
+		EC940EBC2587F5D700A4840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-BrooksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-BrooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidCharts4-Sophia-Brooks.app/RapidCharts4-Sophia-Brooks";
+			};
+			name = Release;
+		};
+		EC940EBE2587F5D700A4840D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-BrooksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-BrooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RapidCharts4-Sophia-Brooks";
+			};
+			name = Debug;
+		};
+		EC940EBF2587F5D700A4840D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZNN428P6W;
+				INFOPLIST_FILE = "RapidCharts4-Sophia-BrooksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.RapidCharts4-Sophia-BrooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RapidCharts4-Sophia-Brooks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC940E882587F5D300A4840D /* Build configuration list for PBXProject "RapidCharts4-Sophia-Brooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC940EB52587F5D700A4840D /* Debug */,
+				EC940EB62587F5D700A4840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC940EB72587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-Brooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC940EB82587F5D700A4840D /* Debug */,
+				EC940EB92587F5D700A4840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC940EBA2587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-BrooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC940EBB2587F5D700A4840D /* Debug */,
+				EC940EBC2587F5D700A4840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC940EBD2587F5D700A4840D /* Build configuration list for PBXNativeTarget "RapidCharts4-Sophia-BrooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC940EBE2587F5D700A4840D /* Debug */,
+				EC940EBF2587F5D700A4840D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC940E852587F5D300A4840D /* Project object */;
+}
