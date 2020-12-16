@@ -33,7 +33,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.88282650709999999" green="0.2364648879" blue="0.19251003859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Oh-l7-qZt" secondAttribute="trailing" id="23x-vM-j58"/>
                             <constraint firstItem="2Oh-l7-qZt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cvu-HZ-w7u"/>
@@ -70,7 +70,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Wsh-7w-amt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.95817477508384596" green="0.96766165404507209" blue="0.96766165404507209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Paitent Name" id="Yve-OK-SHe">
                                 <cells>

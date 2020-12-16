@@ -15,28 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="brg-Q3-dUQ">
-                                <rect key="frame" x="107" y="347.5" width="200" height="199.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="brg-Q3-dUQ">
+                                <rect key="frame" x="32" y="273" width="350" height="350"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="LTq-Vf-ASy"/>
-                                    <constraint firstAttribute="height" constant="200" id="pSg-vx-M0J"/>
+                                    <constraint firstAttribute="width" constant="350" id="Hc3-53-uxl"/>
+                                    <constraint firstAttribute="height" constant="350" id="twM-N6-w7X"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RapidCharts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrC-O0-ojI">
-                                <rect key="frame" x="0.0" y="44" width="414" height="304"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.85090559720000003" green="0.85102832319999999" blue="0.8508786559" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="GrC-O0-ojI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C8Z-B2-OZp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GrC-O0-ojI" secondAttribute="trailing" id="Gr6-DR-0rP"/>
                             <constraint firstItem="brg-Q3-dUQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WBU-ed-A68"/>
                             <constraint firstItem="brg-Q3-dUQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kuq-es-ubv"/>
-                            <constraint firstItem="brg-Q3-dUQ" firstAttribute="top" secondItem="GrC-O0-ojI" secondAttribute="bottom" id="rQB-Lm-zv4"/>
-                            <constraint firstItem="GrC-O0-ojI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tXg-aF-qZ5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -47,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="LOGO" width="500" height="500"/>
     </resources>
 </document>
